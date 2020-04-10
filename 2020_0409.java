@@ -1,4 +1,4 @@
-<div class="code">
+
     import java.util.Scanner;
 
     class MyApp {
@@ -17,12 +17,4 @@
         }
     }
     }
-</div>
-
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
 

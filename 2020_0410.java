@@ -1,4 +1,4 @@
-<div class="code">
+
     import java.util.Scanner;
     import java.util.Random;
     
@@ -24,12 +24,10 @@
         }
       }
     }
-</div>
 
-<ul>
-    <li>乱数は、import java.util.Random;　</li>
-    <li>Integer answer = new Random().nextInt(10)+1;</li>
-    <li>whileを抜けるにはbreakを用いる</li>
-    <li></li>
-</ul>
+//     <li>乱数は、import java.util.Random;　</li>
+//     <li>Integer answer = new Random().nextInt(10)+1;</li>
+//     <li>whileを抜けるにはbreakを用いる</li>
+//     <li></li>
+// </ul>
 
