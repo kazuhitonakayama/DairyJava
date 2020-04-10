@@ -1,31 +1,32 @@
 <div class="code">
-import java.util.Scanner;
-import java.util.Random;
-
-class MyApp {
-  public static void main(String[] args) {
-    Integer answer = new Random().nextInt(10)+1;
+    import java.util.Scanner;
+    import java.util.Random;
     
-    System.out.print("Your guess? ");
-    Integer guess = new Scanner(System.in).nextInt();
-    
-    if (answer == guess) {
-      System.out.println("Bingo!");
-    } else if (answer > guess) {
-      System.out.println("The answer is higher!");
-    } else {
-      System.out.println("The answer is lower!");
+    class MyApp {
+      public static void main(String[] args) {
+        Integer answer = new Random().nextInt(10) + 1;
+        
+        while (true) {
+          System.out.print("Your guess? ");
+          Integer guess = new Scanner(System.in).nextInt();
+          
+          if (answer == guess) {
+            System.out.println("Bingo!");
+            break;
+          } else if (answer > guess ) {
+            System.out.println("The answer is higher!");
+          } else {
+            System.out.println("The answer is lower!");
+          }
+        }
+      }
     }
-    
-    System.out.println("The answer is " + answer);
-  }
-}
 </div>
 
 <ul>
     <li>乱数は、import java.util.Random;　</li>
     <li>Integer answer = new Random().nextInt(10)+1;</li>
-    <li></li>
+    <li>whileを抜けるにはbreakを用いる</li>
     <li></li>
 </ul>
 
